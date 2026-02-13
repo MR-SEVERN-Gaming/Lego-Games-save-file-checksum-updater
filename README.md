@@ -16,7 +16,7 @@ For PC/Mac only, this program also supports:
 - Lego Indiana Jones 2: The Adventure Continues
 
 ## What this tool does
-- Recalculates and updates save file checksums
+- Calculates and updates save file checksums if the calculated one doesn't match
 - Ensures modified save files remain valid and load correctly in-game
 - Displays checksum values in both hexadecimal and decimal formats
 
