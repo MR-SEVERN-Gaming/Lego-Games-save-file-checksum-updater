@@ -47,11 +47,11 @@ ALWAYS MAKE BACKUPS OF YOUR SAVE FILES. YOU TAKE RESPONSIBILITY FOR WHAT HAPPENS
 
 I can't 100% confirm the directories for Mac since I don't currently have a Mac.
 
-# Credits
+## Credits
 This project is based on LSWSCU by Polly May.
 The original concept, structure, and checksum logic come from that project, with extensions and adjustments added in this fork.
 
-# License
+## License
 This project is licensed under the GNU General Public License (GPL), in accordance with the original LSWSCU license.
 You are free to use, modify, and distribute this software under the terms of the GPL.
 Please credit the original author and do not claim the original work as your own.
