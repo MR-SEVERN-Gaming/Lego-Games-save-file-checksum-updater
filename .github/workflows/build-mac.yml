@@ -1,0 +1,28 @@
+name: Build Mac App
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-26-intel
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyInstaller
+        run: pip install pyinstaller
+
+      - name: Build macOS executable
+        run: |
+          pyinstaller --onefile "Drag save file onto me!.py"
+
+      - name: Upload Mac build
+        uses: actions/upload-artifact@v4
+        with:
+          name: Lego-Games-save-file-checksum-updater-mac
+          path: dist/*
